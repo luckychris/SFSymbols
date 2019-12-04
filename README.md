@@ -14,7 +14,7 @@ SFImage(systemName: ._00_circle)
                 .frame(width:20)
 ```
 
-Note: Because dots are not allowed i replaced all dots of the symbols names with underscores.
+Note: Because dots are not allowed i replaced all dots of the symbols names with underscores and because a case must not begin with numbers each case begins with an underscore.
 
 Hope you enjoy it!
 
