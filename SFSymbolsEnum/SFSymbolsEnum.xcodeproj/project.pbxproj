@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB3B8E33239806A1003341C4 /* SFSymbolsEnumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */; };
+		EB3B8E3E239812D3003341C4 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B8E3D239812D3003341C4 /* Package.swift */; };
 		EBCA91A1239799DB002E1D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA91A0239799DB002E1D02 /* AppDelegate.swift */; };
 		EBCA91A3239799DB002E1D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */; };
 		EBCA91A5239799DB002E1D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA91A4239799DB002E1D02 /* ContentView.swift */; };
@@ -31,7 +32,8 @@
 		EB3B8E30239806A1003341C4 /* SFSymbolsEnumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFSymbolsEnumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsEnumUITests.swift; sourceTree = "<group>"; };
 		EB3B8E34239806A1003341C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB3B8E3A23980F20003341C4 /* Package */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Package; path = ../../../Package; sourceTree = "<group>"; };
+		EB3B8E3C239811E6003341C4 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLibrary; path = ../../MyLibrary; sourceTree = "<group>"; };
+		EB3B8E3D239812D3003341C4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../MyLibrary/Package.swift; sourceTree = "<group>"; };
 		EBCA919D239799DB002E1D02 /* SFSymbolsEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbolsEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCA91A0239799DB002E1D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,7 +93,8 @@
 		EBCA919F239799DB002E1D02 /* SFSymbolsEnum */ = {
 			isa = PBXGroup;
 			children = (
-				EB3B8E3A23980F20003341C4 /* Package */,
+				EB3B8E3D239812D3003341C4 /* Package.swift */,
+				EB3B8E3C239811E6003341C4 /* MyLibrary */,
 				EBCA91A0239799DB002E1D02 /* AppDelegate.swift */,
 				EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */,
 				EBCA91A4239799DB002E1D02 /* ContentView.swift */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCA91A1239799DB002E1D02 /* AppDelegate.swift in Sources */,
+				EB3B8E3E239812D3003341C4 /* Package.swift in Sources */,
 				EBCA91B5239799F5002E1D02 /* SFSymbolsEnum.swift in Sources */,
 				EBCA91A3239799DB002E1D02 /* SceneDelegate.swift in Sources */,
 				EBCA91A5239799DB002E1D02 /* ContentView.swift in Sources */,
