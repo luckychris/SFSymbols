@@ -11,6 +11,9 @@ Hope you enjoy it!
 
 Example usage:
 
+```swift
+
+
 struct ContentView: View {
     var body: some View {
         Group() {
@@ -40,3 +43,4 @@ struct SFSymbol_Previews: PreviewProvider {
         }
     }
 }
+```
