@@ -13,6 +13,9 @@ SFImage(systemName: ._00_circle)
                 .resizable()
                 .frame(width:20)
 ```
+
+Note: Because dots are not allowed i replaced all dots of the symbols names with underscores.
+
 Hope you enjoy it!
 
 Example usage:
