@@ -7,6 +7,12 @@ So i wrote this little SFSymbolEnum (if it is not complete, just let me know...)
 
 I added a small sample so you can check whether "your symbol" is in there.
 
+Easy use:
+```swift
+SFImage(systemName: ._00_circle)   
+                .resizable()
+                .frame(width:20)
+```
 Hope you enjoy it!
 
 Example usage:
