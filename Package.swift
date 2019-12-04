@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "SFSymbolsEnum",
             dependencies: [],
-            path: "Sources")
+            path: "SFSymbolsEnum")
     ],
     swiftLanguageVersions: [.v5]
 )
