@@ -10,7 +10,7 @@ import SwiftUI
 
 // #if DEBUG here, so that the preview works...
 #if DEBUG
-struct ContentView: View {
+struct ContentView: View { 
     var body: some View {
         Group() {
             List(SFSymbolsEnum.allCases, id: \.self) { key in
