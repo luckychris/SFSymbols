@@ -34,10 +34,10 @@ struct SFSymbol_Previews: PreviewProvider {
     static var previews: some View {
         List {
             Text("2 symbols")
-            Image(systemName: "00.circle")
+            Image(systemName: "00.circle")   // old style
                 .resizable()
                 .frame(width:20)
-            SFImage(systemName: ._00_circle)
+            SFImage(systemName: ._00_circle)   // new style
                 .resizable()
                 .frame(width:20)
         }
