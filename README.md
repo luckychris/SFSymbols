@@ -9,3 +9,34 @@ I added a small sample so you can check whether "your symbol" is in there.
 
 Hope you enjoy it!
 
+Example usage:
+
+struct ContentView: View {
+    var body: some View {
+        Group() {
+            List(SFSymbolsEnum.allCases, id: \.self) { key in
+                HStack {
+                    Text(key.rawValue)
+                    Spacer()
+                    SFImage(systemName: key)
+                    .resizable()
+                        .frame(width:40, height:40)
+                }
+            }
+        }
+    }
+}
+
+struct SFSymbol_Previews: PreviewProvider {
+    static var previews: some View {
+        List {
+            Text("2 symbols")
+            Image(systemName: "00.circle")
+                .resizable()
+                .frame(width:20)
+            SFImage(systemName: ._00_circle)
+                .resizable()
+                .frame(width:20)
+        }
+    }
+}
