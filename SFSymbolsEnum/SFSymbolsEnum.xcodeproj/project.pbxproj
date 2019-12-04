@@ -33,7 +33,7 @@
 		EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsEnumUITests.swift; sourceTree = "<group>"; };
 		EB3B8E34239806A1003341C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB3B8E3C239811E6003341C4 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLibrary; path = ../../MyLibrary; sourceTree = "<group>"; };
-		EB3B8E3D239812D3003341C4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../MyLibrary/Package.swift; sourceTree = "<group>"; };
+		EB3B8E3D239812D3003341C4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../MyLibrary/Package.swift; sourceTree = "<group>"; };
 		EBCA919D239799DB002E1D02 /* SFSymbolsEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbolsEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCA91A0239799DB002E1D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +75,7 @@
 		EBCA9194239799DB002E1D02 = {
 			isa = PBXGroup;
 			children = (
+				EB3B8E3D239812D3003341C4 /* Package.swift */,
 				EBCA919F239799DB002E1D02 /* SFSymbolsEnum */,
 				EB3B8E31239806A1003341C4 /* SFSymbolsEnumUITests */,
 				EBCA919E239799DB002E1D02 /* Products */,
@@ -93,7 +94,6 @@
 		EBCA919F239799DB002E1D02 /* SFSymbolsEnum */ = {
 			isa = PBXGroup;
 			children = (
-				EB3B8E3D239812D3003341C4 /* Package.swift */,
 				EB3B8E3C239811E6003341C4 /* MyLibrary */,
 				EBCA91A0239799DB002E1D02 /* AppDelegate.swift */,
 				EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */,
