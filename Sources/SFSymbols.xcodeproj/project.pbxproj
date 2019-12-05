@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB3B8E33239806A1003341C4 /* SFSymbolsEnumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */; };
+		EB3B8E6B23991465003341C4 /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3B8E6A23991465003341C4 /* Test1.swift */; };
 		EBCA91A1239799DB002E1D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA91A0239799DB002E1D02 /* AppDelegate.swift */; };
 		EBCA91A3239799DB002E1D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */; };
 		EBCA91A5239799DB002E1D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCA91A4239799DB002E1D02 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 		EB3B8E442398B630003341C4 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CODE_OF_CONDUCT.md; path = ../CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		EB3B8E452398B630003341C4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB3B8E462398B630003341C4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB3B8E6A23991465003341C4 /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
 		EBCA919D239799DB002E1D02 /* SFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCA91A0239799DB002E1D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */,
 				EB3B8E34239806A1003341C4 /* Info.plist */,
+				EB3B8E6A23991465003341C4 /* Test1.swift */,
 			);
 			path = SFSymbolsTests;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB3B8E33239806A1003341C4 /* SFSymbolsEnumUITests.swift in Sources */,
+				EB3B8E6B23991465003341C4 /* Test1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +265,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMQ5YD82ME;
-				INFOPLIST_FILE = SFSymbolsEnumUITests/Info.plist;
+				INFOPLIST_FILE = SFSymbolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -271,7 +275,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SFSymbolsEnum;
+				TEST_TARGET_NAME = SFSymbols;
 			};
 			name = Debug;
 		};
@@ -280,7 +284,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UMQ5YD82ME;
-				INFOPLIST_FILE = SFSymbolsEnumUITests/Info.plist;
+				INFOPLIST_FILE = SFSymbolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +294,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SFSymbolsEnum;
+				TEST_TARGET_NAME = SFSymbols;
 			};
 			name = Release;
 		};
