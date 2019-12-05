@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB3B8E30239806A1003341C4 /* SFSymgolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFSymgolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB3B8E30239806A1003341C4 /* SFSymbolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFSymbolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsEnumUITests.swift; sourceTree = "<group>"; };
 		EB3B8E34239806A1003341C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB3B8E4123981835003341C4 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		EB3B8E442398B630003341C4 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CODE_OF_CONDUCT.md; path = ../CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		EB3B8E452398B630003341C4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB3B8E462398B630003341C4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EBCA919D239799DB002E1D02 /* SFSymgols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymgols.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCA919D239799DB002E1D02 /* SFSymbols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbols.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCA91A0239799DB002E1D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBCA91A2239799DB002E1D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EBCA91A4239799DB002E1D02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,13 +64,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB3B8E31239806A1003341C4 /* SFSymbolsITests */ = {
+		EB3B8E31239806A1003341C4 /* SFSymbolsTests */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */,
 				EB3B8E34239806A1003341C4 /* Info.plist */,
 			);
-			path = SFSymbolsITests;
+			path = SFSymbolsTests;
 			sourceTree = "<group>";
 		};
 		EBCA9194239799DB002E1D02 = {
@@ -81,7 +81,7 @@
 				EB3B8E462398B630003341C4 /* README.md */,
 				EB3B8E4123981835003341C4 /* Package.swift */,
 				EBCA919F239799DB002E1D02 /* SFSymbols */,
-				EB3B8E31239806A1003341C4 /* SFSymbolsITests */,
+				EB3B8E31239806A1003341C4 /* SFSymbolsTests */,
 				EBCA919E239799DB002E1D02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,8 +89,8 @@
 		EBCA919E239799DB002E1D02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBCA919D239799DB002E1D02 /* SFSymgols.app */,
-				EB3B8E30239806A1003341C4 /* SFSymgolsUITests.xctest */,
+				EBCA919D239799DB002E1D02 /* SFSymbols.app */,
+				EB3B8E30239806A1003341C4 /* SFSymbolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB3B8E2F239806A1003341C4 /* SFSymgolsUITests */ = {
+		EB3B8E2F239806A1003341C4 /* SFSymbolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB3B8E37239806A1003341C4 /* Build configuration list for PBXNativeTarget "SFSymgolsUITests" */;
+			buildConfigurationList = EB3B8E37239806A1003341C4 /* Build configuration list for PBXNativeTarget "SFSymbolsTests" */;
 			buildPhases = (
 				EB3B8E2C239806A1003341C4 /* Sources */,
 				EB3B8E2D239806A1003341C4 /* Frameworks */,
@@ -134,14 +134,14 @@
 			dependencies = (
 				EB3B8E36239806A1003341C4 /* PBXTargetDependency */,
 			);
-			name = SFSymgolsUITests;
+			name = SFSymbolsTests;
 			productName = SFSymbolsEnumUITests;
-			productReference = EB3B8E30239806A1003341C4 /* SFSymgolsUITests.xctest */;
+			productReference = EB3B8E30239806A1003341C4 /* SFSymbolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		EBCA919C239799DB002E1D02 /* SFSymgols */ = {
+		EBCA919C239799DB002E1D02 /* SFSymbols */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBCA91B1239799DC002E1D02 /* Build configuration list for PBXNativeTarget "SFSymgols" */;
+			buildConfigurationList = EBCA91B1239799DC002E1D02 /* Build configuration list for PBXNativeTarget "SFSymbols" */;
 			buildPhases = (
 				EBCA9199239799DB002E1D02 /* Sources */,
 				EBCA919A239799DB002E1D02 /* Frameworks */,
@@ -151,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = SFSymgols;
+			name = SFSymbols;
 			productName = SFSymbolsEnum;
-			productReference = EBCA919D239799DB002E1D02 /* SFSymgols.app */;
+			productReference = EBCA919D239799DB002E1D02 /* SFSymbols.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EBCA9198239799DB002E1D02 /* Build configuration list for PBXProject "SFSymgols" */;
+			buildConfigurationList = EBCA9198239799DB002E1D02 /* Build configuration list for PBXProject "SFSymbols" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBCA919C239799DB002E1D02 /* SFSymgols */,
-				EB3B8E2F239806A1003341C4 /* SFSymgolsUITests */,
+				EBCA919C239799DB002E1D02 /* SFSymbols */,
+				EB3B8E2F239806A1003341C4 /* SFSymbolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +239,7 @@
 /* Begin PBXTargetDependency section */
 		EB3B8E36239806A1003341C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBCA919C239799DB002E1D02 /* SFSymgols */;
+			target = EBCA919C239799DB002E1D02 /* SFSymbols */;
 			targetProxy = EB3B8E35239806A1003341C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EB3B8E37239806A1003341C4 /* Build configuration list for PBXNativeTarget "SFSymgolsUITests" */ = {
+		EB3B8E37239806A1003341C4 /* Build configuration list for PBXNativeTarget "SFSymbolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB3B8E38239806A1003341C4 /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBCA9198239799DB002E1D02 /* Build configuration list for PBXProject "SFSymgols" */ = {
+		EBCA9198239799DB002E1D02 /* Build configuration list for PBXProject "SFSymbols" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBCA91AF239799DC002E1D02 /* Debug */,
@@ -469,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBCA91B1239799DC002E1D02 /* Build configuration list for PBXNativeTarget "SFSymgols" */ = {
+		EBCA91B1239799DC002E1D02 /* Build configuration list for PBXNativeTarget "SFSymbols" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EBCA91B2239799DC002E1D02 /* Debug */,
