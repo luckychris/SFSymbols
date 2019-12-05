@@ -64,13 +64,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EB3B8E31239806A1003341C4 /* SFSymbolsEnumUITests */ = {
+		EB3B8E31239806A1003341C4 /* SFSymbolsITests */ = {
 			isa = PBXGroup;
 			children = (
 				EB3B8E32239806A1003341C4 /* SFSymbolsEnumUITests.swift */,
 				EB3B8E34239806A1003341C4 /* Info.plist */,
 			);
-			path = SFSymbolsEnumUITests;
+			path = SFSymbolsITests;
 			sourceTree = "<group>";
 		};
 		EBCA9194239799DB002E1D02 = {
@@ -81,7 +81,7 @@
 				EB3B8E462398B630003341C4 /* README.md */,
 				EB3B8E4123981835003341C4 /* Package.swift */,
 				EBCA919F239799DB002E1D02 /* SFSymbols */,
-				EB3B8E31239806A1003341C4 /* SFSymbolsEnumUITests */,
+				EB3B8E31239806A1003341C4 /* SFSymbolsITests */,
 				EBCA919E239799DB002E1D02 /* Products */,
 			);
 			sourceTree = "<group>";
