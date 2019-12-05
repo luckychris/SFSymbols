@@ -6,7 +6,9 @@
 //  Copyright © 2019 Christoph Duyster. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
+#endif
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
