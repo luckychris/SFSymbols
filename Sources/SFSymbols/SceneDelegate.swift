@@ -5,8 +5,9 @@
 //  Created by Christoph Duyster on 04.12.19.
 //  Copyright © 2019 Christoph Duyster. All rights reserved.
 //
-
+#if os(iOS)
 import UIKit
+#endif
 import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
