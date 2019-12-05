@@ -1,5 +1,3 @@
-![](https://github.com/luckychris/SFSymbols/workflows/Swift/badge.svg)
-
 # SFSymbols
 SwiftUI SFSymbols as Enum
 
