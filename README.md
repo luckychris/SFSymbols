@@ -1,4 +1,4 @@
- https://img.shields.io/github/issues-raw/luckychris/SFSymbols/LABEL-NAME.svg
+
 
 # SFSymbols
 SwiftUI SFSymbols as Enum
